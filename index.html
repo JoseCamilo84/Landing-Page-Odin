@@ -5,11 +5,97 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <title>Portfolio - José Camilo</title>
 </head>
 
 <body>
+   <div class="hero">
+      <header class="container">
+         <nav>
+            <ul>
+               <li class="logo">
+                  <a href=""><img src="./logo2.png" alt="logo"></a>
+               </li>
+               <li><a class="links" href="">Home</a></li>
+               <li><a class="links" href="">About me</a></li>
+               <li><a class="links" href="">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main class="container">
+         <div>
+            <h1>Hi, I'm <span class="color-name">José Camilo</span></h1>
+            <p id="animation" class="animation"></p>
+            <p>I have 3
+               years as a self-taught, in this time I have acquired some skills and knowledge to be able to integrate
+               a working group.</p>
+            <button class="btn">Contact me</button>
+         </div>
+         <img class="avatar" src="./perfil-2.jpg" alt="foto-perfil">
+      </main>
+   </div>
 
+   <div class="projects">
+      <h2>My Projects</h2>
+      <section class="cards">
+         <div class="card">
+            <div class="container-img">
+               <img src="" alt="image-1">
+            </div>
+            <p>Descripción del projecto</p>
+         </div>
+         <div class="card">
+            <div class="container-img">
+               <img src="" alt="image-2">
+            </div>
+            <p>Descripción del projecto</p>
+         </div>
+         <div class="card">
+            <div class="container-img">
+               <img src="" alt="image-3">
+            </div>
+            <p>Descripción del projecto</p>
+         </div>
+         <div class="card">
+            <div class="container-img">
+               <img src="" alt="image-4">
+            </div>
+            <p>Descripción del projecto</p>
+         </div>
+      </section>
+   </div>
+
+   <div class="quote">
+      <section class="container quote-container">
+         <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab asperiores, tempora dignissimos esse
+            reprehenderit,
+            quidem, omnis impedit quasi eveniet blanditiis dolores. Dolorum repellat asperiores cum rem ab. Pariatur,
+            dolore rem?</blockquote>
+         <cite>Lorem ipsum dolor</cite>
+      </section>
+   </div>
+
+   <div class="section-contact">
+      <section class="call-to-action container">
+         <div>
+            <h3>Call to action! It's time!</h3>
+            <p>Contact me for job your product by clicking this button right over there!</p>
+         </div>
+         <button class="btn btn-outline">Contact me</button>
+      </section>
+   </div>
+
+   <footer>
+      <p>Copyright ©️ José Camilo - The Odin Project 2023</p>
+   </footer>
+
+   <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+   <script src="./animation.js"></script>
 </body>
 
 </html>
